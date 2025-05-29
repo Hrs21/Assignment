@@ -1,0 +1,39 @@
+... shell ...
+
+This Book Library Management System includes:
+
+## Features Implemented:
+
+### Authentication & Authorization
+- User registration and login with email/password
+- Role-based access control (Admin/User)
+- Protected routes based on user roles
+- Session management with NextAuth.js
+
+### Admin Functionality
+- Add new books with title, author, genre, and total copies
+- View all books with availability status
+- Edit and delete book records
+- Track borrowed vs available copies
+
+### User Functionality
+- Browse available books catalog
+- Borrow books (if copies available)
+- Return borrowed books
+- View personal borrowed books list with borrow dates
+- Prevent duplicate borrowing of same book
+
+### Database Schema
+- Users table with role management
+- Books table with inventory tracking
+- Borrows table for lending history
+- Proper relationships and constraints
+
+### Technical Features
+- Responsive design with Tailwind CSS
+- Server-side rendering with Next.js App Router
+- Form validation and error handling
+- Real-time availability tracking
+- Clean, organized code structure
+
+## Next Steps:
