@@ -1,5 +1,7 @@
 {
-  "name": "my-v0-project",
+  "name": "book-library",
+  "description": "A web application for managing books, borrowing, and returning with secure login features."
+  "author": "Harsh Sinha"
   "version": "0.1.0",
   "private": true,
   "scripts": {
